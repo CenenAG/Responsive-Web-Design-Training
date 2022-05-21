@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT College - Info requirement</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+<body>
+    <h1 id="title">IT College</h1>
+    <p id="description">Information request on academic programs</p><p>Please fill out this form with the required information</p>
+    <form id="survey-form" action="">
+
+        <fieldset>
+            <label id="name-label" for="">Name: <input type="text" name="" id="name" required placeholder="Your name..."></label>
+            <label id="email-label" for="">Email: <input type="email" name="" id="email" required placeholder="Your email..."> </label>
+            <label id="number-label" for="">Number: <input type="number" name="" id="number" required min="13" max="110" placeholder="Your age..."></label>
+        </fieldset>
+        <fieldset>
+            <label for="">
+                Choose your academic Program.
+                <select name="" id="dropdown">
+                    <option value="">What academic program are you interested in?</option>
+                    <option value="1">Business Intelligence and Analytics</option>
+                    <option value="2">Cyber Security</option>
+                    <option value="3">Full Stack Application Development</option>
+                    <option value="4">Game Development - Game Art</option>
+                    <option value="5">Game Development - Game Programming and Design</option>
+                    <option value="6">Game Development - Game Programming and Design</option>
+                    <option value="7">Geospatial Data Analytics</option>
+                    <option value="8">IT Data Analytics</option>
+                    <option value="9">IT Embedded Systems Programming</option>
+                    <option value="10">IT Database Administration</option>
+                    <option value="11">IT Web Programming</option>
+                </select>
+            </label>
+        </fieldset>
+        
+        <fieldset class="inline">
+            <label for="">I will be a student: 
+                <label  id="radio-label-domestic" for="">Domestic <input class="inline" type="radio" name="student-type" id="radio-domestic" value="D" checked></label>
+                <label for="">International <input class="inline" type="radio" name="student-type" id="radio-international" value="I"></label> 
+            </label>
+        </fieldset>
+
+        <fieldset class="inline">
+            <label id="contact-label" for="">I prefer to be contacted by:           
+                <label id="checkbox-label-email" for="">Email: <input class="inline" type="checkbox" name="" id="" value="1" checked></label> 
+                <label for="">Whatsapp: <input class="inline" type="checkbox" name="" id="" value="2"></label> 
+                <label for="">SMS: <input class="inline" type="checkbox" name="" id="" value="3"></label> 
+            </label>
+        </fieldset>
+        <fieldset>
+            <label for="">Observations:
+                <textarea name="" id="" cols="30" rows="10" placeholder="Observations..."></textarea>
+                <input type="submit" value="Submit" id="submit">
+            </label>
+        </fieldset>
+        
+    </form>
+</body>
+</html>
+
